@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>456</width>
+    <height>439</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.954545, y2:1, stop:0 rgba(77, 170, 70, 255), stop:1 rgba(255, 255, 255, 255))
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+border: 1px solid rgba(255, 255, 255, 40);
+border-radius: 7px;
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="lbl_new_transaction">
+        <property name="styleSheet">
+         <string notr="true">color: #00859d;
+font-weight: bold;
+font-size: 20pt;
+background-color: rgba(255, 255, 255, 100);
+border: none;
+</string>
+        </property>
+        <property name="text">
+         <string>New transaction</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cb_category">
+        <property name="styleSheet">
+         <string notr="true">QComboBox{
+font-size: 16pt;
+
+background-color: rgba(255, 255, 255, 100);
+}
+QComboBox:item {
+color:white;
+background-color: rgba(255, 255, 255, 100);
+}
+</string>
+        </property>
+        <property name="currentIndex">
+         <number>-1</number>
+        </property>
+        <property name="placeholderText">
+         <string>Choose category</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Groceries</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Entertaiment</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Auto</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Other</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Work</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="data">
+        <property name="styleSheet">
+         <string notr="true">padding-left: 10px;
+font-size: 16pt;
+background-color: rgba(255, 255, 255, 100);
+border: none;</string>
+        </property>
+        <property name="buttonSymbols">
+         <enum>QAbstractSpinBox::NoButtons</enum>
+        </property>
+        <property name="date">
+         <date>
+          <year>2023</year>
+          <month>1</month>
+          <day>1</day>
+         </date>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="le_description">
+        <property name="styleSheet">
+         <string notr="true">padding-left: 10px;
+font-size: 16pt;
+background-color: rgba(255, 255, 255, 100);
+border: none;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Description</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="le_balance">
+        <property name="styleSheet">
+         <string notr="true">padding-left: 10px;
+font-size: 16pt;
+background-color: rgba(255, 255, 255, 100);
+border: none;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Balance</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cb_income">
+        <property name="styleSheet">
+         <string notr="true">QComboBox{
+font-size: 16pt;
+
+background-color: rgba(255, 255, 255, 100);
+}
+QComboBox:item {
+color:white;
+background-color: rgba(255, 255, 255, 100);
+}
+</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Income</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Outcome</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_new_transaction">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.954545, y2:1, stop:0 rgba(77, 170, 70, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 7px;
+width: 230px;
+height: 50px;
+}
+QPushButton:hover {
+color: white;
+background-color: rgba(255, 255, 255, 30);
+}
+QPushButton:pressed {
+color: white;
+background-color: rgba(255, 255, 255, 70);
+}</string>
+        </property>
+        <property name="text">
+         <string>Save new transaction</string>
+        </property>
+        <property name="icon">
+         <iconset resource="rec-rcpush.qrc">
+          <normaloff>:/icons/icon/done_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/icon/done_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="rec-rcpush.qrc"/>
+ </resources>
+ <connections/>
+</ui>

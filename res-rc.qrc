@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icon/call_made_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icon/call_received_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icon/create_new_folder_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icon/delete_forever_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icon/directions_car_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icon/done_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icon/edit_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icon/other_admission_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icon/shopping_cart_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icon/stadia_controller_FILL0_wght400_GRAD0_opsz24.svg</file>
+  </qresource>
+</RCC>
